@@ -29,7 +29,7 @@ namespace soomla {
 		An interface to the native StoreInventory class, use this class to
 		access the native StoreInventory functionality.
 	 */
-    class CCStoreInventory: public cocos2d::CCObject {
+    class CCStoreInventory: public cocos2d::Ref {
     public:
 		
         /**
