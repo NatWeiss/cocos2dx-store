@@ -19,7 +19,7 @@
 #include "CCPurchaseWithVirtualItem.h"
 
 namespace soomla {
-    CCPurchaseWithVirtualItem *CCPurchaseWithVirtualItem::create(cocos2d::CCString *itemId, cocos2d::CCInteger *amount) {
+    CCPurchaseWithVirtualItem *CCPurchaseWithVirtualItem::create(cocos2d::__String *itemId, cocos2d::__Integer *amount) {
         CCPurchaseWithVirtualItem *ret = new CCPurchaseWithVirtualItem();
         if (ret->init(itemId, amount)) {
             ret->autorelease();
@@ -31,7 +31,7 @@ namespace soomla {
         return ret;
     }
 
-    bool CCPurchaseWithVirtualItem::init(cocos2d::CCString *itemId, cocos2d::CCInteger *amount) {
+    bool CCPurchaseWithVirtualItem::init(cocos2d::__String *itemId, cocos2d::__Integer *amount) {
         setItemId(itemId);
         setAmount(amount);
 
